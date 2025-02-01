@@ -1,7 +1,7 @@
 aws_region           = "us-east-1"
-vpc_cidr             = "10.37.0.0/16"
+vpc_cidr             = "172.37.0.0/16"
 vpc_name             = "Ansible-Vpc"
-key_name             = "SecOps-Key"
+key_name             = "aws-Key"
 public_subnet_cidrs  = ["172.37.1.0/24", "172.37.2.0/24", "172.37.3.0/24"]    #List
 private_subnet_cidrs = ["172.37.10.0/24", "172.37.20.0/24", "172.37.30.0/24"] #List
 azs                  = ["us-east-1a", "us-east-1b", "us-east-1c"]             #List
